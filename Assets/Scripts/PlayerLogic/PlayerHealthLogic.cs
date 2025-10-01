@@ -50,6 +50,7 @@ public class PlayerHealthLogic : MonoBehaviour
 
     public void addToShield()
     {
+        Debug.Log("Adding to shield");
         shieldCharge += 0.25f;
     }
 

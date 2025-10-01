@@ -17,9 +17,9 @@ public class CameraFollowMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        var destination = followEntity.position;
-        destination.y += heightOffset;
+        //var destination = followEntity.position;
+        //destination.y += heightOffset;
 
-        this.transform.position = Vector3.Lerp(destination, this.transform.position, 0.25f);
+        //this.transform.position = Vector3.Lerp(destination, this.transform.position, 0.25f);
     }
 }
