@@ -12,17 +12,16 @@ public class FlipPlayer : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if(other.tag != "bounds" && other.tag == "bullet" && other.tag == "Player")
+        if(other.tag != "bounds" && other.tag != "bullet" && other.tag != "Player")
         {
-
-            Debug.Log("Object exited bouds");
+            //Debug.Log("Object exited bouds");
             FixEntity(other.gameObject);
             return;
         }
 
         if(other.tag == "Player")
         {
-            Debug.Log("Player exited bounds");
+            //Debug.Log("Player exited bounds");
             FixPlayer(other.gameObject);
         }
     }

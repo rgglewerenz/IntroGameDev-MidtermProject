@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     public float rotationSpeed = 90f;
 
+    public ThrustHandler thrustHandler;
+
     private Vector3 momentum = Vector3.zero;
 
     Rigidbody rb;
@@ -27,9 +29,14 @@ public class PlayerMovement : MonoBehaviour
         {
             if(rb.velocity.magnitude < maxSpeed)
             {
+                thrustHandler.Emit();
                 rb.AddForce(transform.forward * impulse * Time.deltaTime, ForceMode.Impulse);
             }
         }
+        else {
+            thrustHandler.StopEmitting();
+        }
+
 
         if (Input.GetKey(KeyCode.S))
         {

@@ -20,6 +20,9 @@ public class GenericAsteroidLogic : MonoBehaviour
     [SerializeField]
     public int despawnRadius = 80;
 
+    [SerializeField]
+    public int score = 100;
+
     private Timer checkDistanceTimer = new Timer(2f);
 
     // Start is called before the first frame update
@@ -41,8 +44,11 @@ public class GenericAsteroidLogic : MonoBehaviour
     {
         if (checkDistanceTimer.CallAgain(Time.deltaTime))
         {
+            
             if (Vector3.Distance(this.transform.position, player.position) >= despawnRadius)
             {
+                Debug.Log("Asteroid despawned");
+                Debug.Log("Distance: " + Vector3.Distance(this.transform.position, player.position));
                 Destroy(gameObject);
             }
         }
@@ -61,8 +67,9 @@ public class GenericAsteroidLogic : MonoBehaviour
             var scoreHandler = GameObject.FindFirstObjectByType<ScoreHandler>();
             var healthHandler = GameObject.FindFirstObjectByType<PlayerHealthLogic>();
             onBreak();
+            Debug.Log("Asteroid hit");
             healthHandler.addToShield();
-            scoreHandler.UpdateScore(100);
+            scoreHandler.UpdateScore(score);
             Destroy(gameObject);
             Destroy(collision.gameObject);
             return;
@@ -83,8 +90,6 @@ public class GenericAsteroidLogic : MonoBehaviour
                 asteroid.transform.Rotate(new Vector3(0, 1, 0) * ((i * rotationAngle) + 45 ));
                 asteroid.transform.position = this.transform.position + (asteroid.transform.forward * 2.8f);
                 var asteroidLogic = asteroid.GetComponent<GenericAsteroidLogic>();
-
-                Debug.Log($"vectorMagnitude = {this.velocity.magnitude}");
                 asteroidLogic.velocity = asteroid.transform.forward * this.velocity.magnitude * 1.5f;
                 if (rotationAngle >= 180)
                 {

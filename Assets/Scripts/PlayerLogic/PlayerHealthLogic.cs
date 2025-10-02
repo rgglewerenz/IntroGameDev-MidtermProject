@@ -31,10 +31,10 @@ public class PlayerHealthLogic : MonoBehaviour
 
     private void Update()
     {
+        shieldUpdate();
         if (lastDamaged < 0)
             return;
         lastDamaged -= Time.deltaTime;
-        shieldUpdate();
     }
 
 
@@ -50,8 +50,8 @@ public class PlayerHealthLogic : MonoBehaviour
 
     public void addToShield()
     {
-        Debug.Log("Adding to shield");
-        shieldCharge += 0.25f;
+        if(shieldCharge < 100)
+            shieldCharge += 10;
     }
 
     void shieldUpdate()
@@ -61,7 +61,7 @@ public class PlayerHealthLogic : MonoBehaviour
 
     void RemoveHealth()
     {
-        if(shieldCharge >= 1)
+        if(shieldCharge >= 100)
         {
             // Consumes the shield charge without costing a life
             shieldCharge = 0;

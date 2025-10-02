@@ -66,8 +66,6 @@ public class AsteroidSpawnerHandler : MonoBehaviour
 
     void SpawnAsteroid()
     {
-        Debug.Log("Spawnning Asteroid");
-
         AsteroidSize size = (AsteroidSize)Random.Next(0, 3);
 
         GameObject asteroid;
