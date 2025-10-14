@@ -8,10 +8,12 @@ public class ScoreHandler : MonoBehaviour
     [SerializeField]
     public TMPro.TMP_Text scoreText;
 
-    float score = 0;
+    int score = 0;
+
+    public int Score { get => score; }
 
 
-    public void UpdateScore(float pointsToAdd)
+    public void UpdateScore(int pointsToAdd)
     {
         score += pointsToAdd;
         UpdateScore();

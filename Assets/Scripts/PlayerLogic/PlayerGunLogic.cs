@@ -29,7 +29,7 @@ public class PlayerGunLogic : MonoBehaviour
 
     private void SpawnProjectile()
     {
-        var spawnedObject = Instantiate(projectilePrefab, transform.position + (transform.forward * 1.5f), transform.rotation);
+        var spawnedObject = Instantiate(projectilePrefab, transform.position + (transform.forward * 2f), transform.rotation);
     }
 
 }
