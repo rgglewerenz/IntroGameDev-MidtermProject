@@ -26,27 +26,18 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     public TMPro.TMP_Text errorText;
 
-    List<int> HighScores = new List<int>();
-
-    private string SCORE_FILE_PATH;
-
     private ScoreHandler scoreHandler;
+
+    private SceneHandler sceneHandler;
+
+    private HighScoreHandler highScoreHandler;
+
 
     void Start()
     {
-        if(!Directory.Exists(UnityEngine.Application.dataPath + "appdata"))
-        {
-            Directory.CreateDirectory(UnityEngine.Application.dataPath + "appdata");
-        }
-        if(!File.Exists(UnityEngine.Application.dataPath + "appdata/scores.txt"))
-        {
-            File.Create(UnityEngine.Application.dataPath + "appdata/scores.txt").Dispose();
-        }
-
-        SCORE_FILE_PATH  = UnityEngine.Application.dataPath + "appdata/scores.txt";
-
-        HighScores = GetHighScores();
+        highScoreHandler = new HighScoreHandler();
         scoreHandler = FindObjectOfType<ScoreHandler>();
+        sceneHandler = FindObjectOfType<SceneHandler>();
     }
 
 
@@ -89,11 +80,11 @@ public class GameManager : MonoBehaviour
     }
 
 
-    public void RestartGame()
+    public void MoveToStartGame()
     {
         GameOverUI.gameObject.SetActive(false);
         Resume();
-        UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+        sceneHandler.LoadSceneByType(SceneHandler.Scene.Start);
     }
 
     public void GameOver()
@@ -102,7 +93,7 @@ public class GameManager : MonoBehaviour
         PlayerUI.gameObject.SetActive(false);
         PauseMenuUI.gameObject.SetActive(false);
 
-        if(HighScores.Count == 0 || scoreHandler.Score >= HighScores[HighScores.Count])
+        if(highScoreHandler.ScoreEntries.Count == 0 || scoreHandler.Score >= highScoreHandler.ScoreEntries[highScoreHandler.ScoreEntries.Count].Score)
         {
             GameOverHighScoreUI.gameObject.SetActive(true);
             return;
@@ -112,41 +103,36 @@ public class GameManager : MonoBehaviour
         GameOverUI.gameObject.SetActive(true);
     }
 
-
-    private List<int> GetHighScores()
-    {
-        var lines = File.ReadAllLines(SCORE_FILE_PATH);
-        var scores = new List<int>();
-        foreach (var line in lines)
-        {
-            
-            var items = line.Split(',');
-            var score = int.Parse(items[0]);
-            scores.Add(score);
-        }
-        scores.Sort();
-        return scores;
-    }
-
-
     public void SaveHighScore()
     {
         var score = scoreHandler.Score;
         var name = NameInputField.text;
 
-        if (string.IsNullOrEmpty(name))
+        if (string.IsNullOrEmpty(name) || name.Contains(","))
         {
             errorText.gameObject.SetActive(true);
             return;
         }
 
+        highScoreHandler.AddScore(name, score);
 
-        using (StreamWriter sw = File.AppendText(SCORE_FILE_PATH))
-        {
-            sw.WriteLine(score + "," + name);
-        }
-
-        RestartGame();
+        MoveToStartGame();
     }
 
+
+    public void ResumeGame()
+    {
+        PauseMenuUI.gameObject.SetActive(false);
+        PlayerUI.gameObject.SetActive(true);
+        Resume();
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Debug.Log("Escape key pressed");
+            PauseGame();
+        }
+    }
 }

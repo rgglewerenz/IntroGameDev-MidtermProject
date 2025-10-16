@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|c:\\users\\rlewerenz\\source\\game dev\\midterm project\\assets\\scripts\\playerlogic\\thusthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerlogic\\thusthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|c:\\users\\rlewerenz\\source\\game dev\\midterm project\\assets\\scripts\\gamelogicscripts\\highscorehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamelogicscripts\\highscorehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\assets\\scripts\\gamelogicscripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamelogicscripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|c:\\users\\rlewerenz\\source\\game dev\\midterm project\\assets\\scripts\\gamelogicscripts\\endscnene\\endscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamelogicscripts\\endscnene\\endscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|c:\\users\\rlewerenz\\source\\game dev\\midterm project\\assets\\scripts\\gamelogicscripts\\scenehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamelogicscripts\\scenehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\assets\\scripts\\gamelogicscripts\\startscene\\startscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamelogicscripts\\startscene\\startscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\assets\\scripts\\gamelogicscripts\\scorehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamelogicscripts\\scorehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\assets\\scripts\\playerlogic\\playergunlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerlogic\\playergunlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\PlayerLogic\\ThustHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerLogic\\ThustHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\assets\\scripts\\playerlogic\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,20 +47,12 @@
       "RelativeMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamelogicscripts\\asteroidspawnerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\assets\\scripts\\gamelogicscripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamelogicscripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\assets\\scripts\\asteroidlogic\\genericasteroidlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\asteroidlogic\\genericasteroidlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\assets\\scripts\\playerlogic\\playerhealthlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerlogic\\playerhealthlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\assets\\scripts\\playerlogic\\playergunlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B7EA9CA-6FCA-B24E-F27C-369752950431}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerlogic\\playergunlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,37 +82,100 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ThustHandler.cs",
-              "DocumentMoniker": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\PlayerLogic\\ThustHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerLogic\\ThustHandler.cs",
-              "ToolTip": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\PlayerLogic\\ThustHandler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerLogic\\ThustHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "EndScene.cs",
+              "DocumentMoniker": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\GameLogicScripts\\EndScnene\\EndScene.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameLogicScripts\\EndScnene\\EndScene.cs",
+              "ToolTip": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\GameLogicScripts\\EndScnene\\EndScene.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameLogicScripts\\EndScnene\\EndScene.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T21:04:01.154Z",
+              "WhenOpened": "2025-10-16T20:36:20.459Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "StartScene.cs",
+              "DocumentMoniker": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\GameLogicScripts\\StartScene\\StartScene.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameLogicScripts\\StartScene\\StartScene.cs",
+              "ToolTip": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\GameLogicScripts\\StartScene\\StartScene.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameLogicScripts\\StartScene\\StartScene.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T20:30:48.213Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HighScoreHandler.cs",
+              "DocumentMoniker": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\GameLogicScripts\\HighScoreHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameLogicScripts\\HighScoreHandler.cs",
+              "ToolTip": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\GameLogicScripts\\HighScoreHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameLogicScripts\\HighScoreHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T20:40:10.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SceneHandler.cs",
+              "DocumentMoniker": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\GameLogicScripts\\SceneHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameLogicScripts\\SceneHandler.cs",
+              "ToolTip": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\GameLogicScripts\\SceneHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameLogicScripts\\SceneHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T20:26:50.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScoreHandler.cs",
+              "DocumentMoniker": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\GameLogicScripts\\ScoreHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameLogicScripts\\ScoreHandler.cs",
+              "ToolTip": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\GameLogicScripts\\ScoreHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameLogicScripts\\ScoreHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T21:12:21.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ThustHandler.cs",
+              "DocumentMoniker": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\PlayerLogic\\ThustHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerLogic\\ThustHandler.cs",
+              "ToolTip": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\PlayerLogic\\ThustHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerLogic\\ThustHandler.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T21:04:01.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\GameLogicScripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameLogicScripts\\GameManager.cs",
               "ToolTip": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\GameLogicScripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameLogicScripts\\GameManager.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAuwA4AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T20:45:53.903Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "AsteroidSpawnerHandler.cs",
               "DocumentMoniker": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\GameLogicScripts\\AsteroidSpawnerHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameLogicScripts\\AsteroidSpawnerHandler.cs",
@@ -100,12 +183,11 @@
               "RelativeToolTip": "Assets\\Scripts\\GameLogicScripts\\AsteroidSpawnerHandler.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAB4AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T20:41:32.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T20:41:32.749Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "FlipPlayer.cs",
               "DocumentMoniker": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\PlayerLogic\\FlipPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerLogic\\FlipPlayer.cs",
@@ -113,12 +195,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerLogic\\FlipPlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T18:32:06.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-01T18:32:06.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\PlayerLogic\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerLogic\\PlayerMovement.cs",
@@ -126,24 +207,23 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerLogic\\PlayerMovement.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwCQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T20:23:37.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T20:23:37.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "PlayerGunLogic.cs",
               "DocumentMoniker": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\PlayerLogic\\PlayerGunLogic.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerLogic\\PlayerGunLogic.cs",
               "ToolTip": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\PlayerLogic\\PlayerGunLogic.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerLogic\\PlayerGunLogic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T20:23:37.218Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "CameraFollowMovement.cs",
               "DocumentMoniker": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\PlayerLogic\\CameraFollowMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerLogic\\CameraFollowMovement.cs",
@@ -155,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "GenericAsteroidLogic.cs",
               "DocumentMoniker": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\AsteroidLogic\\GenericAsteroidLogic.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AsteroidLogic\\GenericAsteroidLogic.cs",
@@ -167,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "PlayerHealthLogic.cs",
               "DocumentMoniker": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\PlayerLogic\\PlayerHealthLogic.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerLogic\\PlayerHealthLogic.cs",
@@ -179,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "PlayerGunLogic.cs",
               "DocumentMoniker": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\PlayerGunLogic.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerGunLogic.cs",
@@ -187,36 +267,33 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerGunLogic.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T21:19:31.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T21:19:31.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "ProjectileLogic.cs",
               "DocumentMoniker": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\ProjectileLogic.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ProjectileLogic.cs",
               "ToolTip": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\ProjectileLogic.cs",
               "RelativeToolTip": "Assets\\Scripts\\ProjectileLogic.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T21:16:13.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T21:16:13.88Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
               "ToolTip": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T21:08:14.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T21:08:14.475Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "CameraFollowMovement.cs",
               "DocumentMoniker": "C:\\Users\\rlewerenz\\source\\Game dev\\Midterm Project\\Assets\\Scripts\\CameraFollowMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollowMovement.cs",
