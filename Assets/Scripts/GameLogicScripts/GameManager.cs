@@ -93,7 +93,7 @@ public class GameManager : MonoBehaviour
         PlayerUI.gameObject.SetActive(false);
         PauseMenuUI.gameObject.SetActive(false);
 
-        if(highScoreHandler.ScoreEntries.Count == 0 || scoreHandler.Score >= highScoreHandler.ScoreEntries[highScoreHandler.ScoreEntries.Count].Score)
+        if(highScoreHandler.ScoreEntries.Count == 0 || scoreHandler.Score >= highScoreHandler.ScoreEntries[highScoreHandler.ScoreEntries.Count - 1].Score)
         {
             GameOverHighScoreUI.gameObject.SetActive(true);
             return;

@@ -36,7 +36,7 @@ public class EndScene : MonoBehaviour
 
         for(int i = 0; i < scores.Count && i < 5; i++)
         {
-            result += $"{i + 1}) {scores[i].PlayerName} - {scores[i].Score}\n";
+            result += $"{i + 1}) {scores[i].PlayerName} - {scores[i].Score}\n\n";
         }
 
         return result;

@@ -24,6 +24,11 @@ public class StartScene : MonoBehaviour
         _sceneManager.LoadSceneByType(SceneHandler.Scene.HighScores);
     }
 
+    public void ShowCredits()
+    {
+        _sceneManager.LoadSceneByType(SceneHandler.Scene.Credits);
+    }
+
     public void Quit()
     {
 #if UNITY_EDITOR

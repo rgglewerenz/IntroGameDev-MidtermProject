@@ -11,14 +11,16 @@ public class SceneHandler : MonoBehaviour
     {
         Start,
         Game,
-        HighScores
+        HighScores,
+        Credits
     }
 
     private readonly Dictionary<Scene, string> _sceneNames = new Dictionary<Scene, string>()
     {
         { Scene.Start, "Start" },
         { Scene.Game,  "Game"},
-        { Scene.HighScores,  "HighScores"}
+        { Scene.HighScores,  "HighScores"},
+        { Scene.Credits,  "Credits"},
     };
 
 
