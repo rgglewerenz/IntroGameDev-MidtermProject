@@ -370,6 +370,7 @@
 "Assets/Scripts/GameLogicScripts/StartScene/StartScene.cs"
 "Assets/Scripts/PlayerLogic/CameraFollowMovement.cs"
 "Assets/Scripts/PlayerLogic/FlipPlayer.cs"
+"Assets/Scripts/PlayerLogic/PlayerFlashing.cs"
 "Assets/Scripts/PlayerLogic/PlayerGunLogic.cs"
 "Assets/Scripts/PlayerLogic/PlayerHealthLogic.cs"
 "Assets/Scripts/PlayerLogic/PlayerMovement.cs"

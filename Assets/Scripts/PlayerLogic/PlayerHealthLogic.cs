@@ -13,7 +13,9 @@ public class PlayerHealthLogic : MonoBehaviour
     public Slider _slider;
 
 
+
     private GameManager gameManager;
+    private PlayerFlashing playerFlashing;
     private int health = 3;
 
     private float damageCooldown = 2f;
@@ -22,19 +24,26 @@ public class PlayerHealthLogic : MonoBehaviour
 
     private float shieldCharge = 1f;
 
+    
+
 
     // Start is called before the first frame update
     void Start()
     {
-        gameManager = GameObject.FindFirstObjectByType<GameManager>();
+        gameManager = FindFirstObjectByType<GameManager>();
+        playerFlashing = FindFirstObjectByType<PlayerFlashing>();
     }
 
     private void Update()
     {
         shieldUpdate();
         if (lastDamaged < 0)
+        {
+            playerFlashing.Solidify();
             return;
+        }
         lastDamaged -= Time.deltaTime;
+        playerFlashing.Flash();
     }
 
 
@@ -79,4 +88,5 @@ public class PlayerHealthLogic : MonoBehaviour
         health = 0;
         gameManager.GameOver();
     }
+   
 }
