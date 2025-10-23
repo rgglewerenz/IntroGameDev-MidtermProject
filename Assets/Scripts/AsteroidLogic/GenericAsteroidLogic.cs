@@ -88,7 +88,7 @@ public class GenericAsteroidLogic : MonoBehaviour
                 var asteroid = Instantiate(smallerAsteroidPrefab);
                 int rotationAngle = (360 / breakAmount);
                 asteroid.transform.Rotate(new Vector3(0, 1, 0) * ((i * rotationAngle) + 45 ));
-                asteroid.transform.position = this.transform.position + (asteroid.transform.forward * 2.8f);
+                asteroid.transform.position = this.transform.position + (asteroid.transform.forward * 1.0f);
                 var asteroidLogic = asteroid.GetComponent<GenericAsteroidLogic>();
                 asteroidLogic.velocity = asteroid.transform.forward * this.velocity.magnitude * 1.5f;
                 if (rotationAngle >= 180)

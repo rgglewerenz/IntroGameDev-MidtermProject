@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class FlipPlayer : MonoBehaviour
 {
-    int maxX = 38;
-    int minX = -38;
+    int maxX = 32;
+    int minX = -32;
     int maxZ = 18;
     int minZ = -18;
 

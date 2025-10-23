@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEditor.Experimental.GraphView.Port;
-
 public class PlayerFlashing : MonoBehaviour
 {
     [SerializeField]
@@ -36,8 +34,6 @@ public class PlayerFlashing : MonoBehaviour
 
     public void Flash()
     {
-        Debug.Log("here");
-
         if (!increasingOpacity)
         {
             opacity = Mathf.Lerp(opacity, 0.2f, Time.deltaTime * time_scaler);
