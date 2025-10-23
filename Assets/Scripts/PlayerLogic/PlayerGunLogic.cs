@@ -11,6 +11,9 @@ public class PlayerGunLogic : MonoBehaviour
     [SerializeField]
     public GameObject projectilePrefab;
 
+    [SerializeField]
+    public Transform shootFrom;
+
     private Timer shootTimer;
 
     private void Start()
@@ -34,7 +37,7 @@ public class PlayerGunLogic : MonoBehaviour
 
     private void SpawnProjectile()
     {
-        var spawnedObject = Instantiate(projectilePrefab, transform.position + (transform.forward * 2f), transform.rotation);
+        var spawnedObject = Instantiate(projectilePrefab, shootFrom.position, transform.rotation);
     }
 
 }
