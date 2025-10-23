@@ -3563,6 +3563,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lockout: 0.5
   projectilePrefab: {fileID: 3202269945354031192, guid: 16a30dbf2588ec445a2a9ff249b679d2, type: 3}
+  shootFrom: {fileID: 844099351}
 --- !u!54 &1246512474
 Rigidbody:
   m_ObjectHideFlags: 0
