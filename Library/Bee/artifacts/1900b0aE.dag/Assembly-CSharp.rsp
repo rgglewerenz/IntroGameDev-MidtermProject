@@ -367,6 +367,7 @@
 "Assets/Scripts/GameLogicScripts/HighScoreHandler.cs"
 "Assets/Scripts/GameLogicScripts/SceneHandler.cs"
 "Assets/Scripts/GameLogicScripts/ScoreHandler.cs"
+"Assets/Scripts/GameLogicScripts/SoundHandler.cs"
 "Assets/Scripts/GameLogicScripts/StartScene/StartScene.cs"
 "Assets/Scripts/PlayerLogic/CameraFollowMovement.cs"
 "Assets/Scripts/PlayerLogic/FlipPlayer.cs"
